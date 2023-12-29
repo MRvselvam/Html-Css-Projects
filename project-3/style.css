@@ -1,0 +1,306 @@
+.full-page {
+  margin: 2px 20px;
+}
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-1 .img-1 {
+  padding: 20px 10px;
+  margin-right: 450px;
+}
+.div-1 .img-2 {
+  margin-left: -200px;
+  margin-top: 15px;
+  margin-right: 350px;
+}
+
+.div-1 p {
+  margin-left: -150px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -40px;
+}
+.div-1 input {
+  color: rgb(212, 194, 194);
+  border-color: rgb(212, 194, 194);
+  height: 25px;
+  width: 250px;
+  border-radius: 25px;
+  margin-left: 100px;
+}
+.search-img {
+  position: absolute;
+  margin-left: 1110px;
+  border-radius: 100%;
+}
+.div-2,
+.div-2 ul {
+  background-color: rgb(81, 137, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-2 ul li {
+  color: white;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+}
+.div-2 div {
+  margin-left: 280px;
+  padding: 10px;
+}
+.div-2 div button {
+  background-color: yellow;
+  border-color: yellow;
+  height: 30px;
+  width: max-content;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  text-align: center;
+  padding: 2px 10px;
+}
+.bg-box-1 {
+  height: 500px;
+  width: 1293px;
+}
+.container {
+  position: relative;
+}
+.container ul {
+  position: absolute;
+  height: 150px;
+  width: 300px;
+  bottom: 338px;
+}
+.container ul li {
+  list-style: none;
+  background-color: white;
+  height: 30px;
+  width: 250px;
+  font-family: serif;
+  font-size: 20px;
+  border-bottom: 1px solid;
+  padding: 10px;
+  margin-left: 150px;
+}
+.container ul .list-1 {
+  border-top: 5px solid;
+}
+.bg-img-1 {
+  position: absolute;
+  height: 90px;
+  width: 470px;
+  margin-left: 600px;
+  margin-top: -435px;
+}
+.bg-img-2 {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -320px;
+}
+h2 {
+  position: absolute;
+  color: white;
+  background-color: black;
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 280px;
+  margin-top: -159px;
+}
+.bg-label-div {
+  position: absolute;
+  display: flex;
+  border: 5px solid;
+  background-color: white;
+  height: 100px;
+  width: 900px;
+  margin-left: 190px;
+  margin-top: -115px;
+}
+.bg-label-div label {
+  padding: 2px 50px;
+}
+.bg-input-div {
+  position: relative;
+}
+.bg-input-div .normal-input {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 200px;
+}
+.bg-input-div .normal-input input {
+  height: 20px;
+  width: 100px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.bg-input-div .small-input {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -55px;
+}
+.bg-input-div .small-input input {
+  height: 20px;
+  width: 50px;
+  border-radius: 5px;
+}
+.bg-input-div button {
+  color: white;
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  float: right;
+  margin-right: 250px;
+  margin-top: -75px;
+}
+.bg-2 {
+  position: relative;
+  background-color: lightgrey;
+  height: 700px;
+  width: 100%;
+  margin-top: -5px;
+}
+.bg-2 h4 {
+  color: rgb(105, 99, 99);
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.bg-2 .hr-1 {
+  position: absolute;
+  height: 800px;
+  width: 5px;
+  transform: rotate(90deg);
+  margin-left: 725px;
+  margin-top: -370px;
+}
+.bg-2 .arrows {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1010px;
+  border-color: gray;
+}
+.bg-2 .arrows img {
+  border-radius: 100px;
+}
+.bg-2 .img-row-1 {
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 205px;
+}
+.bg-2 .img-row-1 img {
+  width: 282px;
+  margin-right: 10px;
+}
+.hotel-info {
+  position: absolute;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 220px;
+}
+.hotel-info div {
+  width: 300px;
+  margin: 10px 0px 0px 0px;
+}
+.hotel-info b, p {
+  margin-left: 5px;
+}
+.hotel-info button {
+  float: right;
+  color: white;
+  background-color: rgb(5, 105, 145);
+  border-color: rgb(5, 105, 145);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  width: 75px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-top: -50px;
+  padding: 10px;
+}
+.bg-2 .h4-2 {
+  color: rgb(105, 99, 99);
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 320px;
+}
+.bg-2 .hr-2 {
+  position: absolute;
+  height: 800px;
+  width: 5px;
+  transform: rotate(90deg);
+  margin-top: -70px;
+  margin-left: 705px;
+}
+.bg-2 .img-row-2 {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 150px;
+}
+.bg-2 .img-row-2 {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 205px;
+}
+.bg-2 .img-row-2 img {
+  height: 180px;
+  margin-left: 15px;
+}
+.bg-2 .last {
+  position: absolute;
+  border: 1px solid rgba(222, 229, 235, 0.863);
+  background-color: rgba(222, 229, 235, 0.863);
+  height: 70px;
+  width: 910px;
+  margin-left: 190px;
+  margin-top: 580px;
+}
+.bg-2 .h4-3 {
+  position: absolute;
+  color: rgb(105, 99, 99);
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.bg-2 .last-p {
+  color: rgb(61, 56, 56);
+  margin-top: 25px;
+  margin-left: 250px;
+}
+.last-div {
+  display: flex;
+  justify-content: center;
+  
+}
+.last-div div {
+  margin-right: 40px;
+}
+.last-div div h3 {
+  color: gray;
+  font-size: 23px;
+}
+.last-div div p {
+  font-size: 15px;
+}
+.last-div input {
+  height: 30px;
+  width: 140px;
+  font-family: serif;
+  font-size: 15px;
+}
+.last-div button {
+  background-color: rgb(54, 130, 160);
+  border-color: rgb(54, 130, 160);
+  font-family: sans-serif;
+  height: 36px;
+  width: 100px;
+  margin-left: -4px;
+}

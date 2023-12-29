@@ -1,0 +1,160 @@
+.div-1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(252, 125, 6, 0.993);
+  width: 100%;
+}
+.div-1 img,
+h2,
+ul,
+img {
+  margin-left: 50px;
+  margin-right: 75px;
+}
+.div-1 .img-1 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin-left: -820px;
+}
+.div-1 h2 {
+  position: absolute;
+  color: aliceblue;
+  margin-left: -600px;
+}
+.div-1 ul {
+  display: flex;
+  margin-left: 250px;
+}
+.div-1 ul li,
+a {
+  list-style: none;
+  color: aliceblue;
+  margin-left: 50px;
+}
+.div-2 {
+  background-color: lightgrey;
+  width: 100%;
+  margin-top: -16px;
+}
+.div-2 p {
+  color: rgba(252, 125, 6, 0.993);
+  margin-left: 205px;
+  padding: 4px;
+}
+.div-3 {
+  position: absolute;
+}
+.div-3 .img-1 {
+  width: 70%;
+  margin-left: 200px;
+}
+.div-3 .img-2 {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 150px;
+}
+.div-3 .img-3 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -1060px;
+}
+.div-3 div {
+  background-color: rgb(211, 211, 211);
+  width: 70%;
+  margin-left: 200px;
+}
+.div-3 div .img-4 {
+  margin-left: 350px;
+}
+.div-4 {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+  margin-top: 420px;
+}
+.div-4 div {
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  height: 300px;
+  width: 220px;
+  margin-left: 20px;
+}
+.div-4 div .img-1 {
+  height: 50px;
+  width: 50px;
+  
+  margin-left: 70px;
+  padding: 10px;
+}
+.div-4 div h3 {
+  color: rgb(96, 192, 230);
+  font-size: 15px;
+  margin-left: 80px;
+  margin-top: -5px;
+}
+.div-4 div p {
+  text-align: center;
+  margin-top: -5px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.div-4 div .r-1 {
+  margin-top: 30px;
+}
+.div-4 div .r-2 {
+  margin-top: 30px;
+}
+.div-4 div .r-3 {
+  margin-top: -5px;
+}
+.div-4 div .r-4 {
+  margin-top: 45px;
+}
+
+.div-6 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(252, 125, 6, 0.993);
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.div-6 img {
+  position: absolute;
+  height: 50px;
+  margin-left: -700px;
+  margin-top: 10px;
+}
+.div-6 ul {
+  position: absolute;
+  display: flex;
+  margin-left: -20px;
+}
+.div-6 ul li,
+a {
+  color: white;
+  list-style: none;
+  margin-left: 50px;
+}
+.div-6 div p {
+  color: aliceblue;
+  line-height: 10px;
+  text-align: right;
+  margin-left: 750px;
+  padding: 0px 20px;
+}
+.last-div {
+  background-color: lightgrey;
+}
+.last-div p {
+  font-size: 67%;
+  margin-top: 0px;
+  margin-left: 50px;
+  padding: 15px 150px;
+}

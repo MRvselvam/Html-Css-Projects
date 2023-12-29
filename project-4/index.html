@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  </head>
+  <body>
+    <div class="full-page">
+      <img class="p1" src="../Imeges/1.jpg" alt="" />
+      <div class="para-1">
+        <img class="p2-img" src="../Imeges/2.jpg" alt="" />
+        <div class="p2-inputs">
+          <form id="login" onsubmit="process(event)">
+            <input placeholder="Name" />
+            <input placeholder="Email" />
+            <input id="phone" type="tel" name="phone" />
+            <select name="" id="">
+              <option value="">Select Plot Size</option>
+            </select>
+          </form>
+          <div class="alert alert-info" style="display: none"></div>
+          <div class="alert alert-error" style="display: none"></div>
+        </div>
+        <button class="para-1-button">SUBMIT</button>
+        <hr class="hr-1" />
+        <script>
+          const phoneInputField = document.querySelector("#phone");
+          const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript:
+              "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+          });
+
+          const info = document.querySelector(".alert-info");
+          const error = document.querySelector(".alert-error");
+
+          function process(event) {
+            event.preventDefault();
+
+            const phoneNumber = phoneInput.getNumber();
+
+            info.style.display = "";
+            info.innerHTML = `Phone number in E.164 format: <strong>${phoneNumber}</strong>`;
+          }
+        </script>
+      </div>
+      <div class="para-2">
+        <div class="para-2-d1">
+          <img src="../Imeges/3.jpg" alt="" />
+          <p>
+            Starts from 640ft <br />Built-up area starts <br />
+            from 1018 Sq.ft onwars <br />
+            Neo Classical archtecture
+          </p>
+        </div>
+        <div>
+          <img src="../Imeges/4.jpg" alt="" />
+          <p>
+            2.5 & 3 BHK <br />Neo Classical Architecture <br />Double
+            Construction
+          </p>
+        </div>
+        <div>
+          <img src="../Imeges/5.jpg" alt="" />
+          <p>
+            Size: 600-6000 sq.ft <br />Morden Civic Infratructure for
+            <br />Individual Plotsbr <br />
+            80% Bank Funding
+          </p>
+        </div>
+        <div>
+          <img src="../Imeges/6.jpg" alt="" />
+          <p>
+            Sixxes: 25000 sq.ft <br />All Premimum Indoor Game and <br />Other
+            Facilities Available
+          </p>
+        </div>
+      </div>
+      <div class="para-2-button">
+        <button>More Info</button>
+        <button>More Info</button>
+        <button>More Info</button>
+        <button>More Info</button>
+      </div>
+      <hr class="hr-2" />
+      <div class="para-3">
+        <div>
+          <h2>Amenities</h2>
+          <img class="img-1" src="../Imeges/7.jpg" alt="" />
+          <img src="../Imeges/8.jpg" alt="" />
+          <img src="../Imeges/9.jpg" alt="" />
+          <img src="../Imeges/10.jpg" alt="" />
+          <img src="../Imeges/11.jpg" alt="" />
+          <img src="../Imeges/12.jpg" alt="" />
+        </div>
+        <div>
+          <h2>Sports</h2>
+          <img class="img-1" src="../Imeges/13.jpg" alt="" />
+          <img src="../Imeges/14.jpg" alt="" />
+          <img src="../Imeges/15.jpg" alt="" />
+          <img src="../Imeges/16.jpg" alt="" />
+          <img src="../Imeges/17.jpg" alt="" />
+          <img src="../Imeges/18.jpg" alt="" />
+          <img src="../Imeges/19.jpg" alt="" />
+          <img src="../Imeges/20.jpg" alt="" />
+          <img src="../Imeges/21.jpg" alt="" />
+          <img src="../Imeges/22.jpg" alt="" />
+        </div>
+        <div class="all-ul-list-1">
+          <h2 class="h2-3">Utility</h2>
+          <ul>
+            <li class="list-1">24x7&nbsp;Security</li>
+            <li>24x7&nbsp;Water&nbsp;Supply</li>
+            <li>Electricity&nbsp;Provision</li>
+            <li>Ambulance</li>
+            <li>Fibre&nbsp;to&nbsp;Home</li>
+          </ul>
+        </div>
+        <div class="all-ul-list-2">
+          <ul>
+            <li class="list-1">Water&nbsp;Treatment</li>
+            <li>Sewage&nbsp;Treatment&nbsp;Plant</li>
+            <li>Storm&nbsp;Water&nbsp;Drainage</li>
+          </ul>
+        </div>
+        <div class="para-3-d-4">
+          <h2>Hiranandani <br />Theme Parks</h2>
+          <img class="img-1" src="../Imeges/23.jpg" alt="" />
+          <img src="../Imeges/24.jpg" alt="" />
+          <img src="../Imeges/25.jpg" alt="" />
+          <img src="../Imeges/26.jpg" alt="" />
+          <img src="../Imeges/27.jpg" alt="" />
+          <img src="../Imeges/28.jpg" alt="" />
+          <img src="../Imeges/29.jpg" alt="" />
+          <img src="../Imeges/30.jpg" alt="" />
+          <img src="../Imeges/31.jpg" alt="" />
+        </div>
+      </div>
+      <div class="para-4-heading">
+        <ul>
+          <li>Attractive Discounts Available For Corporaate Bulk Bookimg#</li>
+          <li>Retail and Office Space Available For Lease</li>
+        </ul>
+      </div>
+      <img class="gallery" src="../Imeges/33.jpg" alt="" />
+      <div class="img-div">
+        <img class="img-1" src="../Imeges/g1.jpg" alt="" />
+        <img class="img-2" src="../Imeges/g2.jpg" alt="" />
+        <img class="img-3" src="../Imeges/g3.jpg" alt="" />
+        <img class="img-4" src="../Imeges/g4.jpg" alt="" />
+      </div>
+      <div class="last-div">
+        <img src="../Imeges/32.jpg" alt="" />
+        <p>
+          Site Address: <br />
+          Hiranandani Parks. <br />Thriveni Nagar, Near Daimler <br />
+          Oragadam, Chennai, Tamil Nadu - 603 204
+        </p>
+        <p class="p2">www.hiranandaniparks.com</p>
+      </div>
+      <img src="../Imeges/footer.jpg" alt="">
+    </div>
+  </body>
+</html>
